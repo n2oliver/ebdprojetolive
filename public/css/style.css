@@ -1,0 +1,86 @@
+
+.title
+{
+    font-size:24px;
+    font-family: Liberation Serif;
+}
+
+.navbar, .collapsed {
+    background: linear-gradient(#009, #079, #fff);
+}
+
+.navbar {
+    min-width:278px;
+}
+
+.navbar a {
+    color:#fff !important;
+}
+
+.dropdown-menu {
+    background: linear-gradient(#09f, #09f, #09f, #fff);
+}
+
+.dropdown-toggle {
+    background: linear-gradient(#009, #079, #fff);
+}
+
+.dropdown-menu a{
+    color:#fff !important;
+}
+
+.dropdown-menu a:hover{
+    color:#fff !important;
+    background: linear-gradient(#009, #079, #fff);
+}
+
+.parallax {
+    /* Set a specific height */
+    height: 500px;
+    position:relative;
+    top:0px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagem {
+    background-size: cover !important;
+    background-position: center !important;
+
+}
+
+.titulo {
+    font-size: 36px;
+    font-family: Liberation serif;
+    color:#555;
+    padding:20px;
+}
+.sidebar {
+    padding:0px;
+}
+.sidebar a {
+    color: #999;
+}
+
+.sidebar a:hover {
+    color: #000;
+}
+
+.sidebar>.collapse>.nav>li {
+    width:100%;
+}
+
+.swiper-slide{
+
+    height:500px;
+    width:400px;
+}
+
+.conteudo {
+    font-size: 18px;
+    font-family: Liberation serif;
+    border: 3px #eee solid;
+}
